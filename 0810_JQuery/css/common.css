@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#gal{
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+
+#gal>img{
+    width: 100%;
+}
+
+#gal>h1,p{
+    text-align: center;
+}
+
+#thumb{
+    overflow: auto;
+}
+
+#thumb>img{
+    float: left;
+    width: 20%;
+    opacity: 0.5;
+}
+
+#thumb>img:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
